@@ -20,6 +20,11 @@ and is inspired by Liang Huang's (http://web.engr.oregonstate.edu/~huanlian) hve
 library (http://web.engr.oregonstate.edu/~huanlian/software/hvector-1.0.tar.bz). 
 Any errors are mine though.
 
+* Johann Petrak
+* Liang Huang 
+* Authors and contributors to CPython's _collectionsmodule.c
+
+
 Status
 ------
 
