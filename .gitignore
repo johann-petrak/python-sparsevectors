@@ -1,3 +1,12 @@
+*.bak
+/dist
+/easy-install.pth
+/site.py
+*.egg-info
+sparsevectors*.egg
+sparsevectors*.so
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

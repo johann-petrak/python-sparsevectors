@@ -1,9 +1,0 @@
-*.bak
-/build
-*.egg-info
-*.pyc
-/dist
-/easy-install.pth
-/site.py
-sparsevectors*.egg
-sparsevectors*.so
