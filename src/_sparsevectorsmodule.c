@@ -22,12 +22,17 @@ PyDoc_STRVAR(sparsevec_missing_doc,
 "__missing__(key) # returns value 0.0 but does NOT insert it!\n\
 ");
 
-// TODO: this should not actually add anything to the dictionary!!
+/*
+ * Unlike the standard function, simply return a float 0.0
+ */
 static PyObject *
 sparsevec_missing(sparsevecobject *dd, PyObject *key)
 {
     PyObject *value;
     value = PyFloat_FromDouble(0.0);
+    /* Not sure if we need to INCREF here: does the caller expect us to
+       pass ownership? Is the caller expected to take ownership??
+    */
     Py_INCREF(value);
     return value;
 }
